@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    color: #1e293b;
+    background-color: #f1f5f9;
+    padding: 40px 15px;
+}
+
+.marksheet-card {
+    max-width: 760px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 2px solid #0f172a;
+    border-radius: 6px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.marksheet-header {
+    text-align: center;
+    border-bottom: 2px solid #0f172a;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.marksheet-header h1 {
+    font-size: 22px;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+}
+
+.exam-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #475569;
+}
+
+.student-info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 25px;
+    background-color: #f8fafc;
+    border: 1px solid #cbd5e1;
+}
+
+.student-info-table th {
+    background-color: #e2e8f0;
+    color: #1e293b;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1;
+    width: 25%;
+}
+
+.student-info-table td {
+    font-size: 14px;
+    color: #0f172a;
+    padding: 8px 12px;
+    border: 1px solid #cbd5e1;
+    width: 25%;
+}
+
+.marks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.marks-table th,
+.marks-table td {
+    border: 1px solid #cbd5e1;
+    padding: 10px 14px;
+    font-size: 14px;
+}
+
+.marks-table thead tr {
+    background-color: #1e293b;
+    color: #ffffff;
+}
+
+.marks-table thead th {
+    font-weight: bold;
+    text-align: center;
+    border-color: #334155;
+}
+
+.marks-table thead .subject-col {
+    text-align: left;
+    width: 40%;
+}
+
+.marks-table thead .marks-heading {
+    text-align: center;
+}
+
+.marks-table thead .sub-heading {
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #334155;
+}
+
+.marks-table tbody tr:nth-child(even) {
+    background-color: #f8fafc;
+}
+
+.marks-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.subject-name {
+    text-align: left;
+    font-weight: 500;
+    color: #0f172a;
+}
+
+.num-cell {
+    text-align: center;
+    font-family: Consolas, Monaco, monospace;
+    font-size: 14px;
+}
+
+.status-pass {
+    text-align: center;
+    color: #166534;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.marks-table tfoot {
+    background-color: #f1f5f9;
+}
+
+.summary-row th {
+    text-align: left;
+    background-color: #e2e8f0;
+    font-weight: bold;
+    color: #1e293b;
+}
+
+.highlight-cell {
+    font-weight: bold;
+    color: #0f172a;
+}
+
+.status-cell {
+    text-align: center;
+    font-size: 13px;
+    font-style: italic;
+    color: #475569;
+}
+
+.grade-badge {
+    font-weight: bold;
+    color: #1e40af;
+}
+
+.result-row th {
+    background-color: #0f172a;
+    color: #ffffff;
+    font-size: 15px;
+}
+
+.result-pass {
+    background-color: #dcfce7;
+    color: #15803d;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.marksheet-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.signature-box {
+    text-align: center;
+    width: 200px;
+}
+
+.signature-line {
+    border-top: 1px dashed #64748b;
+    margin-bottom: 8px;
+}
+
+.signature-box p {
+    font-size: 13px;
+    color: #475569;
+}
